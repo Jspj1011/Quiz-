@@ -4,11 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pagina Principal</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css" media="screen"/>
+    <ul>
+        <li><a class="link" href = "index.html">INICIO</a></li>
+        <li><a class="link" href = "NuevoCliente.html">NUEVO CLIENTE</a></li>
+    </ul>
 </head>
 <body>
-
-    <h1>Hola como vas</h1>
-    
+    <div class="div1">
+        <h2>LISTA CLIENTES</h1>
+        <table id="t1">
+            <tr class="fila1">
+                <td><h5>DOCUMENTO</h5></td>
+                <td><h5>NOMBRES</h5></td>
+                <td><h5>APELLIDOS</h5></td>
+                <td><h5>ACCIONES</h5></td>
+            </tr>
+            <tr>
+                <td><p>13420491</p></td>
+                <td><p>RAMON</p></td>
+                <td><p>PEREZ</p></td>
+                <td class="tdboton">
+                    <a id="detalle" class="editar" href = "Cliente.html">DETALLES</a>
+                    <a class="editar">ELIMINAR</a>
+                </td>
+            </tr>
+        </table>
+    </div>
 </body>
 </html>
